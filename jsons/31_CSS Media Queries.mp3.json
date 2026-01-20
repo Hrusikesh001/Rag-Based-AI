@@ -1,0 +1,1587 @@
+{
+  "chunks": [
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 0.0,
+      "end": 3.0,
+      "text": " \u090f\u0915 time \u0917\u094b \u0915\u0930\u0924\u093e \u0925\u093e \u091c\u092c \u0906\u092a \u0932\u094b\u0917 \u0915\u093f\u0938\u0940 client \u0915\u0947 \u0932\u093f\u090f website \u092c\u0928\u093e \u0930\u0939\u0947 \u0939\u0948\u0902"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 3.0,
+      "end": 5.4,
+      "text": " \u0924\u094b \u0909\u0938 client \u0915\u094b \u0906\u092a\u0915\u094b specifically \u092c\u0924\u093e\u0928\u093e \u092a\u0921\u093c\u0924\u093e \u0925\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 5.4,
+      "end": 7.8,
+      "text": " \u0915\u093f \u092d\u093e\u0908 \u092e\u0941\u091d\u0947 \u092e\u0947\u0930\u0940 website \u0915\u094b responsive \u0915\u0930\u0915\u0947 \u0926\u0947\u0928\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 7.8,
+      "end": 11.0,
+      "text": " \u0932\u0947\u0915\u093f\u0928 \u0906\u091c \u0915\u0940 \u0924\u093e\u0930\u0940\u0915 \u092e\u0947\u0902 by default \u0906\u092a\u0938\u0947 \u0915\u094b\u0908 \u092d\u0940 website \u092c\u0928\u092c\u093e\u0924\u093e \u0939\u0948 \u0928"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 11.0,
+      "end": 14.4,
+      "text": " \u0924\u094b \u0906\u092a\u0915\u094b responsive \u0915\u0930\u0915\u0947 \u0926\u0947\u0928\u093e \u0939\u0940 \u092a\u0921\u093c\u0947\u0917\u093e \u092f\u0947 default setting \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 14.4,
+      "end": 17.4,
+      "text": " responsiveness \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 \u0938\u092c\u0938\u0947 important \u091a\u0940\u091c\u093c \u0939\u094b\u0924\u0940 \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 17.4,
+      "end": 20.4,
+      "text": " media query \u091c\u093f\u0938\u0915\u0947 \u0932\u093f\u090f \u0906\u092a \u0932\u094b\u0917\u094b\u0902 \u0915\u094b \u0915\u0941\u091b additional code \u0932\u093f\u0916\u0928\u093e \u092a\u0921\u093c\u0924\u093e \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 20.4,
+      "end": 23.4,
+      "text": " \u0914\u0930 \u0906\u092a\u0915\u0940 desktop \u092a\u0947 \u0905\u091a\u094d\u091b\u0940 \u0926\u093f\u0916\u0928\u0947 \u0935\u093e\u0932\u0940 website"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 23.4,
+      "end": 25.4,
+      "text": " mobile phones \u0915\u0947 \u0932\u093f\u090f \u092d\u0940 adapt \u0915\u0930 \u0932\u0947\u0915\u0940"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 25.4,
+      "end": 28.4,
+      "text": " \u0905\u092a\u0928\u0940 websites \u0915\u094b mobile \u092e\u0947\u0902 \u0905\u091a\u094d\u091b\u093e \u0926\u093f\u0916\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 28.4,
+      "end": 32.4,
+      "text": " \u0906\u092a \u0932\u094b\u0917\u094b\u0902 \u0915\u094b \u0907\u0938\u094d\u0924\u093f\u092e\u093e\u0932 \u0915\u0930\u0928\u0940 \u092a\u0921\u093c\u0947\u0902\u0917\u0940 media queries \u091c\u094b \u0915\u0940 \u092c\u0939\u0941\u0924 simple \u0939\u094b\u0924\u0940 \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 32.4,
+      "end": 34.4,
+      "text": " \u0914\u0930 \u092c\u0939\u0941\u0924 straight forward \u0907\u0928\u0915\u093e syntax \u0939\u094b\u0924\u093e \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 34.4,
+      "end": 36.4,
+      "text": " \u0928\u0940\u091a\u0947 comments section \u092e\u0947\u0902 like \u0915\u0930\u0915\u0947 \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u094b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 36.4,
+      "end": 38.4,
+      "text": " sigma batch \u0939\u094b \u092d\u0940 \u091c\u0930\u0942\u0930 \u0932\u093f\u0916 \u0926\u0947\u0928\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 38.4,
+      "end": 40.4,
+      "text": " \u092e\u0948\u0902 \u0939\u092e\u0947\u0936\u093e \u0915\u0940 \u0924\u0930\u0939 \u092c\u0939\u0941\u0924 \u091c\u093e\u0927\u093e excited \u0939\u0942\u0901"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 40.4,
+      "end": 42.4,
+      "text": " \u091a\u0932\u0924\u0947 \u0939\u0948\u0902 computer stream \u092e\u0947\u0902"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 42.4,
+      "end": 44.4,
+      "text": " \u092f\u0947\u091f\u094d\u0938 \u0930\u094b\u0917\u0947 \u0907\u0928\u094d\u091f\u0942"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 44.4,
+      "end": 54.4,
+      "text": " \u092a\u0930 \u0935\u093e\u0932\u093f\u090f \u092a\u0930 \u092c\u091a\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 54.4,
+      "end": 56.4,
+      "text": " \u092e\u0948\u0902\u0928\u0947 \u092f\u093e\u092a\u0930 \u0916\u094b\u0932 \u0932\u093f\u092f\u093e \u0939\u0948 \u0935\u0940 \u090f\u0938 \u0915\u094b\u0921 \u0905\u092a\u0928\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 56.4,
+      "end": 58.4,
+      "text": " \u0914\u0930 \u0905\u0932\u0921\u093f\u0921\u093f \u092e\u0948\u0902\u0928\u0947 index.html \u0928\u093e\u092e \u0938\u0947 \u092a\u093e\u0907\u0932 \u092c\u0928\u093e \u0932\u093f\u092f\u093e \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 58.4,
+      "end": 60.4,
+      "text": " CSS media query \u0928\u093e\u092e \u0938\u0947"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 60.4,
+      "end": 62.4,
+      "text": " \u092e\u0948\u0902\u0928\u0947 \u090f\u0915 title \u0926\u093f\u092f\u093e \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 62.4,
+      "end": 64.4,
+      "text": " \u0907\u0938 page \u0915\u094b \u0914\u0930 \u092f\u093e\u092a\u0930 \u0906\u092a\u0915\u094b \u092c\u0924\u093e\u090a\u0902\u0917\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 64.4,
+      "end": 66.4,
+      "text": " \u0915\u0940 media query \u0915\u094d\u092f\u093e \u0939\u094b\u0924\u0940 \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 66.4,
+      "end": 68.4,
+      "text": " \u092a\u0930 \u0935\u093e\u0932\u093f\u092f\u0947 \u090f\u0915 \u0905\u091c\u0940\u092c \u0938\u093e \u0907\u0938 \u091f\u093e\u0907\u0932 \u0926\u093e\u0932 \u0932\u0942\u0917\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 68.4,
+      "end": 70.4,
+      "text": " \u0914\u0930 \u092e\u0948\u0902 \u0915\u0939\u0942\u0902\u0917\u093e \u092c\u0949\u0921\u0940 \u0915\u093e background \u0915\u0932\u0930 \u0915\u0930 \u0926\u094b red"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 70.4,
+      "end": 72.4,
+      "text": " \u0914\u0930 \u0906\u092a \u0915\u0939\u094b\u0902\u0917\u093e \u092c\u0949\u0921\u0940 \u0915\u093e background \u0915\u0932\u0930"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 72.4,
+      "end": 74.4,
+      "text": " red \u0915\u0930\u0924\u093e \u0939\u0948 \u092e\u0948\u0902 \u0915\u0930\u0924\u093e \u0939\u0942\u0901"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 74.4,
+      "end": 76.4,
+      "text": " \u0914\u0930 div \u0915\u0947 \u0905\u0902\u0926\u0930 \u092e\u0948\u0902 \u0932\u093f\u0916\u0942\u0902\u0917\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 76.4,
+      "end": 78.4,
+      "text": " Hey I am a red body guy"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 78.4,
+      "end": 80.4,
+      "text": " \u0915\u094c\u0928 \u0939\u0942\u0902 \u0939\u0948 red body guy"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 80.4,
+      "end": 82.4,
+      "text": " \u092e\u0924\u0932\u092c red body \u0935\u093e\u0932\u0940 \u0928\u0939\u0940\u0902"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 82.4,
+      "end": 84.4,
+      "text": " \u092c\u0922\u093c\u0940 \u091f\u0947\u0917 \u0939\u0948 \u0935\u094b red \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 96.4,
+      "end": 98.4,
+      "text": " \u0906\u092a \u092a\u0930 \u092a\u094d\u0930\u0947\u0935\u093f\u092f\u0942 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 98.4,
+      "end": 100.4,
+      "text": " \u0939\u093e\u0901 \u092f\u093e \u0920\u0940\u0915 \u0939\u0948 \u0924\u093f\u0928\u093e \u0915\u094d\u092f\u093e time pass \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 100.4,
+      "end": 102.4,
+      "text": " \u092c\u094b\u0921\u093c\u0940 \u092c\u0939\u0941\u0924 \u0905\u091a\u094d\u091b\u0940 \u092c\u093e\u0924 \u0939\u0948 \u0924\u093e\u0932\u093f\u092f\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 102.4,
+      "end": 104.4,
+      "text": " \u0932\u0947\u0915\u093f\u0928 \u0906\u091c \u091c\u094b \u092e\u0948\u0902 \u0906\u092a \u0932\u094b\u0917\u094b\u0902 \u0915\u094b \u092c\u0924\u093e\u0928\u0947 \u0906\u092f\u093e \u0939\u0942\u0901"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 104.4,
+      "end": 106.4,
+      "text": " \u0935\u094b \u092f\u0939 \u0939\u0948 \u0915\u093f \u0906\u092a styles change \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 106.4,
+      "end": 108.4,
+      "text": " \u0906\u092a \u0915\u093f\u0938 device \u092e\u0947\u0902 \u0939\u0948\u0902"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 108.4,
+      "end": 110.4,
+      "text": " \u0909\u0938\u0915\u0947 basis \u092a\u0947 \u0926\u0947\u0916\u094b \u0925\u094b\u0921\u093c\u0940 \u0938\u0940"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 110.4,
+      "end": 112.4,
+      "text": " \u0915\u0939\u093e\u0928\u0940 \u0938\u0941\u0928\u093e\u0924\u093e \u0939\u0942\u0901 \u0906\u092a \u0932\u094b\u0917\u094b\u0902 \u0915\u094b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 112.4,
+      "end": 114.4,
+      "text": " \u0910\u0938\u0940 \u0915\u0939\u093e\u0928\u0940 \u0938\u0941\u0928\u093e\u090a\u0902\u0917\u093e \u091c\u0948\u0938\u0947 \u0926\u093e\u0926\u093e \u091c\u0940 \u0938\u0941\u0928\u093e\u0924\u0947 \u0939\u0948\u0902"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 114.4,
+      "end": 116.4,
+      "text": " \u092a\u094b\u0924\u094b \u0915\u094b \u0915\u093f \u0939\u092e\u093e\u0930\u0947 time \u092a\u0947 \u092f\u0939 \u0939\u094b\u0924\u093e \u0925\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 116.4,
+      "end": 118.4,
+      "text": " \u092e\u0947\u0930\u0947 time \u092a\u0922\u093c\u0928\u0940 \u0932\u0947\u0915\u093f\u0928 \u092c\u0939\u0941\u0924 \u092a\u0939\u0932\u0947"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 118.4,
+      "end": 120.4,
+      "text": " \u091c\u092c CSS2 \u0906\u0908 \u0925\u0940 \u0924\u092c"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 120.4,
+      "end": 122.4,
+      "text": " media \u0928\u093e\u092e \u0915\u0940 \u090f\u0915 query"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 122.4,
+      "end": 124.4,
+      "text": " \u0907\u0902\u091f\u0930\u0921\u094d\u092f\u0942\u0938 \u0915\u0940 \u0917\u0908 \u0925\u0940 \u0914\u0930 \u0909\u0938\u0915\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 124.4,
+      "end": 126.4,
+      "text": " purpose \u0907\u0924\u0928\u093e \u0925\u093e \u0915\u093f"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 126.4,
+      "end": 128.4,
+      "text": " media query \u092f\u0939 \u092c\u0924\u093e\u0924\u0940 \u0925\u0940 \u0915\u093f"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 128.4,
+      "end": 130.4,
+      "text": " \u0905\u0917\u0930 \u0915\u094b\u0908 \u092d\u0940 \u0907\u0902\u0938\u093e\u0928 \u0915\u093f\u0938\u0940 \u0926\u0942\u0938\u0930\u0947 device \u092e\u0947\u0902"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 130.4,
+      "end": 132.4,
+      "text": " \u0906\u0915\u094d\u0938\u0947\u0938 \u0915\u0930 \u0930\u0939\u093e \u0939\u0948 \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0915\u094b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 132.4,
+      "end": 134.4,
+      "text": " \u0924\u094b styles \u0915\u094b change \u0915\u093f\u092f\u093e \u091c\u093e \u0938\u0915\u0947 \u0938\u093f\u0930\u094d\u092b \u0907\u0924\u0928\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 134.4,
+      "end": 136.4,
+      "text": " purpose \u0925\u093e \u0909\u0938\u0915\u094b media rule \u0915\u0939\u093e \u091c\u093e\u0924\u093e \u0925\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 136.4,
+      "end": 138.4,
+      "text": " \u091c\u094b CSS2 \u092e\u0947\u0902 \u090f\u0902\u091f\u0930\u0921\u094d\u092f\u0942\u0938 \u0915\u0940 \u0917\u0908 \u0925\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 138.4,
+      "end": 140.4,
+      "text": " CSS3 \u092e\u0947\u0902 \u0907\u0938 media rule \u0915\u093e \u0928\u093e\u092e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 140.4,
+      "end": 142.4,
+      "text": " change \u0915\u0930\u0915\u0947 media query \u0915\u0930 \u0926\u093f\u092f\u093e \u0917\u092f\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 142.4,
+      "end": 144.4,
+      "text": " \u0924\u094b CSS2 \u092e\u0947\u0902 media rule \u0915\u0948\u0938\u0947 \u0915\u093e\u092e \u0915\u0930\u0924\u093e \u0925\u093e \u0909\u0938\u0915\u094b \u092d\u0942\u0932 \u091c\u093e\u0913"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 144.4,
+      "end": 146.4,
+      "text": " CSS3 \u092e\u0947\u0902 \u092c\u0924\u093e\u0924\u093e \u0939\u0942\u0901"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 146.4,
+      "end": 148.4,
+      "text": " media query \u0915\u093f\u0938 \u0924\u0930\u0939 \u0938\u0947 \u0915\u093e\u092e \u0915\u0930\u0924\u0940 \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 148.4,
+      "end": 150.4,
+      "text": " \u0924\u094b CSS3 \u092e\u0947\u0902"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 150.4,
+      "end": 152.4,
+      "text": " media query \u0915\u093e syntax \u0915\u094d\u092f\u093e \u0939\u094b\u0924\u093e \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 152.4,
+      "end": 154.4,
+      "text": " \u0915\u093f \u0906\u092a \u0938\u092c\u0938\u0947 \u092a\u0939\u0932\u0947 \u0915\u094d\u092f\u093e \u0915\u0930\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 154.4,
+      "end": 156.4,
+      "text": " \u0915\u093f \u0932\u093f\u0916\u0924\u0947 \u0939\u094b at the rate media"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 156.4,
+      "end": 158.4,
+      "text": " \u0907\u0938\u0915\u093e \u092e\u0924\u0932\u092c \u0939\u0941\u0906 \u0915\u093f \u0906\u092a"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 158.4,
+      "end": 160.4,
+      "text": " media query \u0932\u093f\u0916 \u0930\u0939\u0947 \u0939\u094b \u091f\u0940\u0915\u0947"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 160.4,
+      "end": 162.4,
+      "text": " \u0906\u092a \u0915\u093f\u0938 device \u092e\u0947\u0902 \u0932\u093f\u0916\u0928\u093e \u091a\u093e\u0939\u0924\u0947 \u0939\u094b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 162.4,
+      "end": 164.4,
+      "text": " media query \u092f\u0939 \u0906\u092a \u0932\u094b\u0917 \u092c\u0924\u093e\u0924\u0947 \u0939\u094b \u0914\u0930 \u0909\u0938\u0938\u0947 \u092a\u0939\u0932\u0947"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 164.4,
+      "end": 166.4,
+      "text": " \u090f\u0915 not \u092f\u093e only \u0906\u0924\u093e \u0939\u0948 \u092f\u093e\u0928\u093f \u0915\u093f \u092e\u0948\u0902 \u0906\u092a \u092a\u0930 \u0932\u093f\u0916 \u0938\u0915\u0924\u093e \u0939\u0942\u0901"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 166.4,
+      "end": 168.4,
+      "text": " media only screen"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 168.4,
+      "end": 170.4,
+      "text": " \u092f\u093e\u0928\u093f \u0915\u093f \u0938\u093f\u0930\u094d\u092b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 170.4,
+      "end": 172.4,
+      "text": " screen \u092a\u0930 \u0939\u0948\u0902 \u0924\u092c \u092f\u0939\u093e\u0901 \u092a\u0930 apply \u0939\u094b\u0917\u0940 \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 172.4,
+      "end": 174.4,
+      "text": " \u0924\u094b \u090f\u0915 typical \u091c\u094b syntax \u0939\u0948 media query \u0915\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 174.4,
+      "end": 176.4,
+      "text": " \u0907\u0938 \u0924\u0930\u0939 \u0938\u0947 \u0932\u093f\u0916\u0924\u093e \u0939\u0948 media not"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 176.4,
+      "end": 180.4,
+      "text": " only \u092f\u093e \u0924\u094b \u0907\u0938 media type \u092a\u0930 \u0928\u0939\u0940\u0902 \u0926\u093f\u0916\u093e \u0914\u0930 \u092a\u0930 \u0907\u0938 media type \u092a\u0930 \u0926\u093f\u0916\u093e \u0939\u094b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 180.4,
+      "end": 182.4,
+      "text": " \u0914\u0930 \u0907\u0938\u0915\u0947 \u092c\u093e\u0926 \u0939\u092e \u092f\u0939\u093e\u0901 \u092a\u0930 \u0915\u0941\u091b expressions \u0932\u093f\u0916\u0924\u0947 \u0939\u0948\u0902"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 182.4,
+      "end": 184.4,
+      "text": " \u091c\u093f\u0938\u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0906\u092a \u0932\u094b\u0917 \u0915\u094b \u092c\u0924\u093e\u090a\u0902\u0917\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 184.4,
+      "end": 186.4,
+      "text": " \u0914\u0930 \u0907\u0938\u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 CSS code \u0932\u093f\u0916\u0924\u0947 \u0939\u0948\u0902 \u091c\u094b \u0915\u093f"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 186.4,
+      "end": 188.4,
+      "text": " apply \u0939\u094b\u0917\u093e \u0924\u092c \u091c\u092c \u092f\u0939 \u091a\u0940\u091c\u093c"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 218.4,
+      "end": 220.4,
+      "text": " \u092a\u0930 \u0907\u0938\u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0906\u092a \u0932\u094b\u0917 \u0915\u094b \u092c\u0924\u093e\u090a\u0902\u0917\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 220.4,
+      "end": 222.4,
+      "text": " \u090f\u0915 \u0914\u0930 \u0939\u094b\u0924\u0947 \u0939\u0948 speech devices \u091c\u094b \u0915\u093f \u0909\u0928 \u0932\u094b\u0917 \u0915\u0947"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 222.4,
+      "end": 224.4,
+      "text": " \u0932\u093f\u090f \u0907\u0938\u094d\u0924\u0947\u092e\u093e\u0932 \u0939\u094b\u0924\u0947 \u0939\u0948\u0902 \u091c\u094b \u0915\u093f \u0926\u0947\u0916 \u0928\u0939\u0940\u0902 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902 \u0924\u094b \u092f\u0939\u093e\u0901 \u092a\u0930 speech"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 224.4,
+      "end": 226.4,
+      "text": " \u0921\u093e\u0932\u093e \u091c\u093e\u0924\u093e \u0939\u0948 \u0905\u0917\u0930 \u0906\u092a \u091a\u093e\u0939\u0924\u0947 \u0939\u094b \u0915\u093f \u092f\u0939 CSS"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 226.4,
+      "end": 228.4,
+      "text": " style \u0924\u092c \u0939\u0940 apply \u0939\u094b \u091c\u092c"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 228.4,
+      "end": 230.4,
+      "text": " \u092f\u0939\u093e\u0901 \u092a\u0930 speech \u0935\u093e\u0932\u093e device \u0939\u094b \u0924\u094b \u0906\u092a \u092f\u0939\u093e\u0901 \u092a\u0930"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 230.4,
+      "end": 232.4,
+      "text": " speech \u0932\u093f\u090f \u0926\u094b\u0917\u0947 \u092c\u0921\u093c\u0947 \u092e\u094b\u0938\u094d\u091f \u0914\u0930 \u0915\u0947\u0938\u0947 \u0905\u092a \u092f\u0939\u093e\u0901 \u092a\u0930"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 232.4,
+      "end": 234.4,
+      "text": " screen \u0939\u0940 \u0932\u093f\u0916\u094b\u0917\u0947 \u0914\u0930 \u0907\u0938\u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0906\u092a"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 234.4,
+      "end": 236.4,
+      "text": " \u092f\u0939\u093e\u0901 \u092a\u0930 end \u0932\u093f\u0916\u094b\u0917\u0947 \u0914\u0930 \u090f\u0915 condition"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 236.4,
+      "end": 238.4,
+      "text": " \u0932\u093f\u0916\u094b\u0917\u0947 \u0915\u0941\u091b \u0907\u0938 \u0924\u0930\u0939 \u0915\u0947 \u091c\u093f\u0938\u0947 \u092e\u093e\u0932\u094b\u0902 \u092e\u0948\u0902 \u0932\u093f\u0917\u0947 \u0926\u0947\u0924\u093e \u0939\u0942\u0901"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 238.4,
+      "end": 240.4,
+      "text": " max width \u0939\u094b\u0928\u0940 \u091a\u093e\u0939\u093f\u090f"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 240.4,
+      "end": 242.4,
+      "text": " 455 pixel \u0914\u0930 \u092e\u093e\u0932\u094b\u0902"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 242.4,
+      "end": 244.4,
+      "text": " \u0906\u092a \u0926\u0947\u0916\u094b \u0906\u092a \u0932\u094b\u0917 \u0905\u0917\u0930 \u0907\u0938\u0915\u0940"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 244.4,
+      "end": 246.4,
+      "text": " max width \u092f\u0939\u093e\u0901 \u092a\u0930"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 246.4,
+      "end": 248.4,
+      "text": " 455 pixel \u0924\u0915 \u091a\u094b\u0908"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 248.4,
+      "end": 250.4,
+      "text": " \u092f\u0939 \u0938\u0947 style \u0932\u0917\u0947\u0917\u093e \u092f\u093e\u0928\u093f \u0915\u0940"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 250.4,
+      "end": 252.4,
+      "text": " 455 \u0938\u0947 style \u0932\u0917\u0947\u0917\u093e \u092f\u0939 \u0915\u0940"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 252.4,
+      "end": 254.4,
+      "text": " \u0924\u0930\u0939 \u0915\u0947 \u0932\u093f\u0916\u094b\u0917\u0947 \u092a\u0930 \u092c\u0930\u0947 \u092e\u0947\u0902"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 254.4,
+      "end": 256.4,
+      "text": " \u092a\u0930 \u092f\u0939\u093e\u0901 \u092a\u0930 \u0935\u093f\u0921\u093f\u092f\u094b \u0915\u0930\u0924\u0947 \u0939\u0948\u0902 \u0924\u094b \u092c\u0948\u0915\u094d\u0915\u0930\u0949\u0923 \u0915\u0932\u0930"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 256.4,
+      "end": 258.4,
+      "text": " \u092c\u0921\u093c\u0947 \u0915\u0930\u0924\u0947 \u0939\u0948 \u0924\u094b \u092f\u0939 \u092a\u0930"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 288.4,
+      "end": 290.4,
+      "text": " \u092a\u0930 \u092a\u0930 \u092a\u0930\u0935\u093e\u0930\u0924 \u092a\u0930"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 290.4,
+      "end": 292.4,
+      "text": " 90-95 \u092a\u0930\u0935\u093e\u0930\u0924 \u0915\u0947 \u0932\u093f\u090f"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 292.4,
+      "end": 294.4,
+      "text": " media only screen and"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 294.4,
+      "end": 296.4,
+      "text": " max width 455 \u092f\u0939\u093e\u0901 \u092a\u0930"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 296.4,
+      "end": 298.4,
+      "text": " min width \u092d\u0940 \u0926\u0947 \u0938\u0915\u0924\u093e \u0939\u0942\u0901 \u0905\u0917\u0930"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 298.4,
+      "end": 300.4,
+      "text": " \u092e\u0948\u0902 \u0907\u0938\u0915\u094b min width \u0915\u0930 \u0926\u0942 \u092f\u0939\u093e\u0901 \u092a\u0930"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 300.4,
+      "end": 302.4,
+      "text": " \u0924\u094b \u0915\u094d\u092f\u093e \u0939\u094b\u0917\u093e \u0905\u0917\u0930 \u092e\u0948\u0902\u0928\u0947 min width \u0915\u0930 \u0926\u093f\u092f\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 302.4,
+      "end": 304.4,
+      "text": " \u0924\u094b \u092f\u0939 apply \u0939\u094b\u0917\u093e after"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 304.4,
+      "end": 306.4,
+      "text": " \u091c\u093f\u0924\u0928\u093e \u092e\u0948\u0902\u0928\u0947 pixel \u091c\u093f\u092f\u093e \u0925\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 306.4,
+      "end": 308.4,
+      "text": " I guess \u092e\u0948\u0902\u0928\u0947 455 pixel \u091c\u093f\u092f\u093e \u0925\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 308.4,
+      "end": 310.4,
+      "text": " \u0924\u094b \u0924\u094b \u0924\u094b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 310.4,
+      "end": 312.4,
+      "text": " \u0930\u093f\u0936\u094d\u091f \u0928\u093f\u0935\u0930\u094d\u0935"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 312.4,
+      "end": 314.4,
+      "text": " \u0915\u094d\u092f\u0942\u0902\u0915\u093f \u0905\u092d\u0940 \u091c\u094b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 314.4,
+      "end": 316.4,
+      "text": " 455 \u092a\u093f\u0915\u094d\u0938\u0932"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 316.4,
+      "end": 318.4,
+      "text": " \u092e\u0948\u0902 \u0915\u0902\u0917 \u0915\u0930\u0942\u0901\u0917\u093e \u0924\u094b \u0926\u0947\u0916\u094b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 318.4,
+      "end": 320.4,
+      "text": " \u0917\u093e\u092f\u093e \u092d\u0940 \u0939\u094b \u0917\u0908"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 320.4,
+      "end": 322.4,
+      "text": " \u0915\u094d\u092f\u093e \u092f\u0939 \u092c\u0921\u093c\u0940 \u0939\u0948"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 322.4,
+      "end": 324.4,
+      "text": " \u0924\u094b \u092f\u0939 \u0938\u094d\u091f\u093e\u0907\u0932 \u0938\u092c \u0932\u0917\u0947\u0902\u0917\u0947 \u0939\u0940 \u0928\u0939\u0940\u0902 \u0924\u094b \u092f\u0939"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 324.4,
+      "end": 326.4,
+      "text": " \u092c\u0921\u093c\u0940 \u0926\u093f\u0916\u093e \u0939\u0940 \u0928\u0939\u0940\u0902 \u091c\u093e \u0930\u0939\u0940 \u0939\u0948 \u091c\u0948\u0938\u0947 \u092e\u0948\u0902 \u0907\u0938\u0915\u094b \u092c\u0921\u093c\u093e \u0915\u0930\u0942\u0901\u0917\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 326.4,
+      "end": 328.4,
+      "text": " \u0907\u0938\u0947 \u0924\u092c \u0924\u094b \u092e\u0940\u0921\u093f\u092f\u093e \u0915\u094d\u0935\u0930\u0940 \u090f\u0915\u094d\u091f\u093f\u0935\u0947\u091f \u0939\u094b \u091a\u0941\u0915\u0940 \u0939\u0948 \u0924\u094b \u092f\u0939 \u0935\u093e\u0932\u0947"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 328.4,
+      "end": 330.4,
+      "text": " \u0938\u094d\u091f\u093e\u0907\u0932 \u0915\u093e\u092e \u0928\u0939\u0940\u0902 \u0915\u0930\u0947\u0902\u0917\u0947 \u0924\u093e\u0925 \u0938\u0947"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 330.4,
+      "end": 332.4,
+      "text": " \u0905\u0932 \u0906\u092c\u093e\u0913\u091f \u092e\u0940\u0921\u093f\u092f\u093e \u0915\u094d\u0935\u0930\u0940 \u092f\u093e\u0930 \u0924\u094b"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 332.4,
+      "end": 334.4,
+      "text": " \u0935\u093e\u0932\u0947 \u0938\u092e\u0930\u093f\u091c\u094d\u092f\u0935 \u092e\u0940\u0921\u093f\u092f\u093e \u0915\u094d\u0935\u0930\u0940 \u0939\u094b\u0924\u0940 \u0939\u0948 \u0909\u0938\u0915\u093e \u0907\u0938\u094d\u0925\u093f\u092e\u093e\u0932 \u0915\u093f\u092f\u093e"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 334.4,
+      "end": 337.4,
+      "text": " responsive designs ko banane ke liye"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 337.4,
+      "end": 340.4,
+      "text": " for example let us say mere paas 2 boxes hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 340.4,
+      "end": 343.4,
+      "text": " main aap par 2 boxes banata hu aur div.boxes"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 343.4,
+      "end": 346.4,
+      "text": " karunga aur yahan par div.boxes karunga"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 346.4,
+      "end": 349.4,
+      "text": " aur kuch boxes aur lagata hu yahan par main .box"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 349.4,
+      "end": 352.4,
+      "text": " main kyung jo .box hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 352.4,
+      "end": 355.4,
+      "text": " main uske width rakhta na chahata hu let us say"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 355.4,
+      "end": 358.4,
+      "text": " 344 pixels aur height rakhta na chahata hu"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 358.4,
+      "end": 361.4,
+      "text": " let us say 344 pixels, meise maine 344 hi kyun choose"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 361.4,
+      "end": 364.4,
+      "text": " kya hai isi example ke liye, agar aapko idea ho to"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 364.4,
+      "end": 367.4,
+      "text": " batana ki mera kaunsa Isaac Newton wala dimaag hai jo maine"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 367.4,
+      "end": 370.4,
+      "text": " 344 pixels hi use kya, maine 392"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 370.4,
+      "end": 373.4,
+      "text": " kyun hi kya, batana zarur aap log, niche comment section me agar"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 373.4,
+      "end": 376.4,
+      "text": " aapko pata ho to, aur aap yahan par dekho ki abhi tak to"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 376.4,
+      "end": 379.4,
+      "text": " maine yahan par sirf box ki width diye, main iska background"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 379.4,
+      "end": 382.4,
+      "text": " color bhi deta hu aur iska background color mai deta hu"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 382.4,
+      "end": 385.4,
+      "text": " let us say steel blue, theek hai main iska background color"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 385.4,
+      "end": 388.4,
+      "text": " steel blue de diye, ye boxes aapko dekhne ko mil jayenge, isme padding"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 388.4,
+      "end": 391.4,
+      "text": " margin bhi de deta ho, to agar mai padding do 3 pixels"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 391.4,
+      "end": 394.4,
+      "text": " margin do 3 pixels to aap log dekh sakte ho"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 394.4,
+      "end": 397.4,
+      "text": " ki padding margin dene ke baad hi kuch is tarah se dekh rahe hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 397.4,
+      "end": 400.4,
+      "text": " ab maan lo mai chahata hu ki ye jo boxes hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 400.4,
+      "end": 403.4,
+      "text": " wo jis hi zaap se dekh rahe hai, mai chahata hu choti screens par ye"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 403.4,
+      "end": 406.4,
+      "text": " boxes kuch aise dekhein ki ye apne aapko"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 406.4,
+      "end": 409.4,
+      "text": " wrap karne lag jaye, ya phir let us say mai chahata hu ki"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 409.4,
+      "end": 412.4,
+      "text": " ye ek flex box ho, mujhe pata hai aapko flex box"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 412.4,
+      "end": 415.4,
+      "text": " nahi bataya hai, bas just main aap log ko"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 415.4,
+      "end": 418.4,
+      "text": " ye haan par example dene ke liye flex kar rahe ho isko"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 418.4,
+      "end": 421.4,
+      "text": " agar aapko nahi pata flex box kya hota hai tension mat lena"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 421.4,
+      "end": 424.4,
+      "text": " bahot sahi se pataunga flex box, lekin aap bas itna samajh do display flex lakane se"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 424.4,
+      "end": 427.4,
+      "text": " ye is sara ke container me aajaenge, ab mai isko abar chota karunga"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 427.4,
+      "end": 430.4,
+      "text": " aap dekho ye aise chote ho rahe hain, to mai keh sakta hu ki"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 430.4,
+      "end": 433.4,
+      "text": " bhai jab mai isko chota kar rahe ho, let us say jab ye"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 433.4,
+      "end": 436.4,
+      "text": " red wala break point aara hai, 388 pixel aara hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 436.4,
+      "end": 439.4,
+      "text": " to mai keh dunga bhai, jo iska flex direction hai wo column kar du"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 439.4,
+      "end": 442.4,
+      "text": " ye just ek example hai jo mai aapko dena ho"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 442.4,
+      "end": 445.4,
+      "text": " this is not the best way to do this, mai aapko bata du, boxes ka"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 445.4,
+      "end": 448.4,
+      "text": " mai kahunga ki, jo flex direction hai wo kya kar du"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 448.4,
+      "end": 451.4,
+      "text": " flex direction column"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 451.4,
+      "end": 454.4,
+      "text": " to ye karne se kya hoga, jaise hi mai isko chota karunga, aap dekho mai ne ye kiya"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 454.4,
+      "end": 457.4,
+      "text": " mai isko, ups main actually"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 457.4,
+      "end": 460.4,
+      "text": " garbar kar diya hai yaha par, mai isko max width karunga yaar"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 460.4,
+      "end": 463.4,
+      "text": " min width nahi, mai isko max width karunga, min width nahi karunga"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 463.4,
+      "end": 466.4,
+      "text": " ab dekhna aap log, ye kuch is tarah se dikh raha hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 466.4,
+      "end": 469.4,
+      "text": " ab jaise hi chota hoga na, aap dekhna hi aise aa gaya, theek hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 469.4,
+      "end": 472.4,
+      "text": " to mai basically kya kaha sakta ho, mai kaha sakta ho ki yaar"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 472.4,
+      "end": 475.4,
+      "text": " phone hai, yaani ki isse chote devices hai, jo bhi maine number diya tha"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 475.4,
+      "end": 478.4,
+      "text": " 400 something, 455 pixels se chote devices"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 478.4,
+      "end": 481.4,
+      "text": " unmei ye CSS apply kar do, ab kya hota hai na ki jab aap"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 481.4,
+      "end": 484.4,
+      "text": " responsive design kar rahe hote hai, to aap log break points ka concept"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 484.4,
+      "end": 487.4,
+      "text": " usko sabjo, hum kuch 2-3 break points mein"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 487.4,
+      "end": 490.4,
+      "text": " website ko todte hai, hum kehte hai yaar dekho phone wali devices hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 490.4,
+      "end": 493.4,
+      "text": " 455 pixels ke neeche rahe hain, ye arbitrary number hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 493.4,
+      "end": 496.4,
+      "text": " is number ka ek accha approximation aap log le le na"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 496.4,
+      "end": 499.4,
+      "text": " lekin main ek example aapko batara hu, 455 pixels se bade"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 499.4,
+      "end": 502.4,
+      "text": " jo devices humge humare, wo let us say 455 se leke"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 502.4,
+      "end": 505.4,
+      "text": " 750 tak, hum unko tablet ban le dekh, ki yaar wo kahin na kahin"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 505.4,
+      "end": 508.4,
+      "text": " tablet ke jaise hunge, aur unmei kuch aur styles hum log"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 508.4,
+      "end": 511.4,
+      "text": " apply kar denge, fir usse upar jo devices"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 511.4,
+      "end": 514.4,
+      "text": " hunge let us say 1080 pixels tak, hum keh denge ki yaar"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 514.4,
+      "end": 517.4,
+      "text": " 1920 hai phir, jitne bhi pixels hoti hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 517.4,
+      "end": 520.4,
+      "text": " humari wide screen, waha tak ek particular humara style lag jaga"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 520.4,
+      "end": 523.4,
+      "text": " fir kuch ultra wide monitors hote hain, jinki jo"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 523.4,
+      "end": 526.4,
+      "text": " width hoti hai, wo bahut zyada hoti hai, unmei me bhi hum apni website ko"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 526.4,
+      "end": 529.4,
+      "text": " ek alag dhang se dikhana chahe, to hum un ultra wide monitors"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 529.4,
+      "end": 532.4,
+      "text": " me apni website ko kuch aur media queries ke through"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 532.4,
+      "end": 535.4,
+      "text": " sajha sarte hain, style kar sarte hain, so i hope media queries"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 535.4,
+      "end": 538.4,
+      "text": " samajh me aagaya sabko, hum media query ka mai istamal karunga"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 538.4,
+      "end": 541.4,
+      "text": " jab hum log projects banayenge, aur bahut zyada mai istamal karunga"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 541.4,
+      "end": 544.4,
+      "text": " media queries ka, jab bhi aap raw CSS likh rahe ho, media query ko zarur"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 544.4,
+      "end": 547.4,
+      "text": " istamal karoge, agar aap frameworks ka istamal kar rahe ho, to"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 547.4,
+      "end": 550.4,
+      "text": " frameworks ka istamal karte bhakta, media query ka istamal isliye nahi karoge"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 550.4,
+      "end": 553.4,
+      "text": " kyunki frameworks behind the hood, jaise tailwind CSS hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 553.4,
+      "end": 556.4,
+      "text": " behind the hood use karta hai media queries ko, bootstrap hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 556.4,
+      "end": 559.4,
+      "text": " behind the hood use karta hai media queries ko, lekin raw CSS"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 559.4,
+      "end": 562.4,
+      "text": " hum likhenge, hum raw CSS main banayenge projects, maha baad aap log"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 562.4,
+      "end": 565.4,
+      "text": " dekhna, ki media query aur istamal kis tarah se mai karunga"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 565.4,
+      "end": 568.4,
+      "text": " ab jaane se pehle, main ek cheez aur aap logon ko dikhana chahata ho"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 568.4,
+      "end": 571.4,
+      "text": " ki ek media query hoti hai, jo ki aap log use karte hain"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 571.4,
+      "end": 574.4,
+      "text": " main aap log likhunga, and aur likhunga"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 574.4,
+      "end": 577.4,
+      "text": " orientation, orientation"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 607.4,
+      "end": 610.4,
+      "text": " ki aap log log, maal log main yeh kar diya, ab dekho yaha par"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 610.4,
+      "end": 613.4,
+      "text": " 2 pixel solid purple ki aap logon ko yeh dekhne ko mil rhi hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 613.4,
+      "end": 616.4,
+      "text": " yeh tab mil rhi hai aapko dekhne ko, jab mera orientation landscape hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 616.4,
+      "end": 619.4,
+      "text": " lekin agar mera orientation landscape se portrait ho gaya, ab dekho yeh"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 619.4,
+      "end": 622.4,
+      "text": " gaya ho jayegi, portrait ka matlab kya hota hai, portrait ka matlab"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 622.4,
+      "end": 625.4,
+      "text": " yeh hota hai, ki jo hamari height hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 625.4,
+      "end": 628.4,
+      "text": " yeh height hai, yeh portrait hai, yeh height jo hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 628.4,
+      "end": 631.4,
+      "text": " wo zyada hai width se, aur width agar zyada hui height se to"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 631.4,
+      "end": 634.4,
+      "text": " wo landscape hai, to dekho landscape hogi to yeh border dikh raha hai, to aap"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 634.4,
+      "end": 637.4,
+      "text": " orientation landscape, yeh portrait bhi kar sakte ho, to main"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 637.4,
+      "end": 640.4,
+      "text": " portrait kar diya agar yaha par, to yeh portrait mein dikhye ki line"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 640.4,
+      "end": 643.4,
+      "text": " sirf aap dekh sakte ho, yeh border sirf portrait mein dikh raha hai, to aur aap log"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 643.4,
+      "end": 646.4,
+      "text": " chahate ho ki aapke styles landscape, yeh portrait mein"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 646.4,
+      "end": 649.4,
+      "text": " enable ho, to aap yeh use kar sakte ho, yeh media query bhi kaafi popular hoti hai"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 649.4,
+      "end": 652.4,
+      "text": " taki main batara hu aapko tubara se, most of the cases"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 652.4,
+      "end": 655.4,
+      "text": " aap apne aapko istara ki media query se istamal karte hua"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 655.4,
+      "end": 658.4,
+      "text": " paoge, with that said, agar aap log ne abhi tak"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 658.4,
+      "end": 661.4,
+      "text": " nahi kari hai, planet access, to main ghar aana hu, aapke ghar aana hai, bohot ho gaya"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 661.4,
+      "end": 664.4,
+      "text": " to source code main update kar dunga, usko aap log access kar lena"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 664.4,
+      "end": 667.4,
+      "text": " video ko like kar dena, playlist ko share kar dena, video ko bhi share kar dena"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 667.4,
+      "end": 670.4,
+      "text": " aur apne gaon aur tao ki zameen mere naam kar dena"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 670.4,
+      "end": 673.4,
+      "text": " thank you so much guys for watching this video, and i will see you next time"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 692.4,
+      "end": 695.4,
+      "text": " music"
+    },
+    {
+      "number": "31",
+      "title": "CSS Media Queries",
+      "start": 695.4,
+      "end": 696.4,
+      "text": " music"
+    }
+  ],
+  "text": " \u090f\u0915 time \u0917\u094b \u0915\u0930\u0924\u093e \u0925\u093e \u091c\u092c \u0906\u092a \u0932\u094b\u0917 \u0915\u093f\u0938\u0940 client \u0915\u0947 \u0932\u093f\u090f website \u092c\u0928\u093e \u0930\u0939\u0947 \u0939\u0948\u0902 \u0924\u094b \u0909\u0938 client \u0915\u094b \u0906\u092a\u0915\u094b specifically \u092c\u0924\u093e\u0928\u093e \u092a\u0921\u093c\u0924\u093e \u0925\u093e \u0915\u093f \u092d\u093e\u0908 \u092e\u0941\u091d\u0947 \u092e\u0947\u0930\u0940 website \u0915\u094b responsive \u0915\u0930\u0915\u0947 \u0926\u0947\u0928\u093e \u0932\u0947\u0915\u093f\u0928 \u0906\u091c \u0915\u0940 \u0924\u093e\u0930\u0940\u0915 \u092e\u0947\u0902 by default \u0906\u092a\u0938\u0947 \u0915\u094b\u0908 \u092d\u0940 website \u092c\u0928\u092c\u093e\u0924\u093e \u0939\u0948 \u0928 \u0924\u094b \u0906\u092a\u0915\u094b responsive \u0915\u0930\u0915\u0947 \u0926\u0947\u0928\u093e \u0939\u0940 \u092a\u0921\u093c\u0947\u0917\u093e \u092f\u0947 default setting \u0939\u0948 responsiveness \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 \u0938\u092c\u0938\u0947 important \u091a\u0940\u091c\u093c \u0939\u094b\u0924\u0940 \u0939\u0948 media query \u091c\u093f\u0938\u0915\u0947 \u0932\u093f\u090f \u0906\u092a \u0932\u094b\u0917\u094b\u0902 \u0915\u094b \u0915\u0941\u091b additional code \u0932\u093f\u0916\u0928\u093e \u092a\u0921\u093c\u0924\u093e \u0939\u0948 \u0914\u0930 \u0906\u092a\u0915\u0940 desktop \u092a\u0947 \u0905\u091a\u094d\u091b\u0940 \u0926\u093f\u0916\u0928\u0947 \u0935\u093e\u0932\u0940 website mobile phones \u0915\u0947 \u0932\u093f\u090f \u092d\u0940 adapt \u0915\u0930 \u0932\u0947\u0915\u0940 \u0905\u092a\u0928\u0940 websites \u0915\u094b mobile \u092e\u0947\u0902 \u0905\u091a\u094d\u091b\u093e \u0926\u093f\u0916\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0906\u092a \u0932\u094b\u0917\u094b\u0902 \u0915\u094b \u0907\u0938\u094d\u0924\u093f\u092e\u093e\u0932 \u0915\u0930\u0928\u0940 \u092a\u0921\u093c\u0947\u0902\u0917\u0940 media queries \u091c\u094b \u0915\u0940 \u092c\u0939\u0941\u0924 simple \u0939\u094b\u0924\u0940 \u0939\u0948 \u0914\u0930 \u092c\u0939\u0941\u0924 straight forward \u0907\u0928\u0915\u093e syntax \u0939\u094b\u0924\u093e \u0939\u0948 \u0928\u0940\u091a\u0947 comments section \u092e\u0947\u0902 like \u0915\u0930\u0915\u0947 \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u094b sigma batch \u0939\u094b \u092d\u0940 \u091c\u0930\u0942\u0930 \u0932\u093f\u0916 \u0926\u0947\u0928\u093e \u092e\u0948\u0902 \u0939\u092e\u0947\u0936\u093e \u0915\u0940 \u0924\u0930\u0939 \u092c\u0939\u0941\u0924 \u091c\u093e\u0927\u093e excited \u0939\u0942\u0901 \u091a\u0932\u0924\u0947 \u0939\u0948\u0902 computer stream \u092e\u0947\u0902 \u092f\u0947\u091f\u094d\u0938 \u0930\u094b\u0917\u0947 \u0907\u0928\u094d\u091f\u0942 \u092a\u0930 \u0935\u093e\u0932\u093f\u090f \u092a\u0930 \u092c\u091a\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u092e\u0948\u0902\u0928\u0947 \u092f\u093e\u092a\u0930 \u0916\u094b\u0932 \u0932\u093f\u092f\u093e \u0939\u0948 \u0935\u0940 \u090f\u0938 \u0915\u094b\u0921 \u0905\u092a\u0928\u093e \u0914\u0930 \u0905\u0932\u0921\u093f\u0921\u093f \u092e\u0948\u0902\u0928\u0947 index.html \u0928\u093e\u092e \u0938\u0947 \u092a\u093e\u0907\u0932 \u092c\u0928\u093e \u0932\u093f\u092f\u093e \u0939\u0948 CSS media query \u0928\u093e\u092e \u0938\u0947 \u092e\u0948\u0902\u0928\u0947 \u090f\u0915 title \u0926\u093f\u092f\u093e \u0939\u0948 \u0907\u0938 page \u0915\u094b \u0914\u0930 \u092f\u093e\u092a\u0930 \u0906\u092a\u0915\u094b \u092c\u0924\u093e\u090a\u0902\u0917\u093e \u0915\u0940 media query \u0915\u094d\u092f\u093e \u0939\u094b\u0924\u0940 \u0939\u0948 \u092a\u0930 \u0935\u093e\u0932\u093f\u092f\u0947 \u090f\u0915 \u0905\u091c\u0940\u092c \u0938\u093e \u0907\u0938 \u091f\u093e\u0907\u0932 \u0926\u093e\u0932 \u0932\u0942\u0917\u093e \u0914\u0930 \u092e\u0948\u0902 \u0915\u0939\u0942\u0902\u0917\u093e \u092c\u0949\u0921\u0940 \u0915\u093e background \u0915\u0932\u0930 \u0915\u0930 \u0926\u094b red \u0914\u0930 \u0906\u092a \u0915\u0939\u094b\u0902\u0917\u093e \u092c\u0949\u0921\u0940 \u0915\u093e background \u0915\u0932\u0930 red \u0915\u0930\u0924\u093e \u0939\u0948 \u092e\u0948\u0902 \u0915\u0930\u0924\u093e \u0939\u0942\u0901 \u0914\u0930 div \u0915\u0947 \u0905\u0902\u0926\u0930 \u092e\u0948\u0902 \u0932\u093f\u0916\u0942\u0902\u0917\u093e Hey I am a red body guy \u0915\u094c\u0928 \u0939\u0942\u0902 \u0939\u0948 red body guy \u092e\u0924\u0932\u092c red body \u0935\u093e\u0932\u0940 \u0928\u0939\u0940\u0902 \u092c\u0922\u093c\u0940 \u091f\u0947\u0917 \u0939\u0948 \u0935\u094b red \u0939\u0948 \u0906\u092a \u092a\u0930 \u092a\u094d\u0930\u0947\u0935\u093f\u092f\u0942 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902 \u0939\u093e\u0901 \u092f\u093e \u0920\u0940\u0915 \u0939\u0948 \u0924\u093f\u0928\u093e \u0915\u094d\u092f\u093e time pass \u0939\u0948 \u092c\u094b\u0921\u093c\u0940 \u092c\u0939\u0941\u0924 \u0905\u091a\u094d\u091b\u0940 \u092c\u093e\u0924 \u0939\u0948 \u0924\u093e\u0932\u093f\u092f\u093e \u0932\u0947\u0915\u093f\u0928 \u0906\u091c \u091c\u094b \u092e\u0948\u0902 \u0906\u092a \u0932\u094b\u0917\u094b\u0902 \u0915\u094b \u092c\u0924\u093e\u0928\u0947 \u0906\u092f\u093e \u0939\u0942\u0901 \u0935\u094b \u092f\u0939 \u0939\u0948 \u0915\u093f \u0906\u092a styles change \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u094b \u0906\u092a \u0915\u093f\u0938 device \u092e\u0947\u0902 \u0939\u0948\u0902 \u0909\u0938\u0915\u0947 basis \u092a\u0947 \u0926\u0947\u0916\u094b \u0925\u094b\u0921\u093c\u0940 \u0938\u0940 \u0915\u0939\u093e\u0928\u0940 \u0938\u0941\u0928\u093e\u0924\u093e \u0939\u0942\u0901 \u0906\u092a \u0932\u094b\u0917\u094b\u0902 \u0915\u094b \u0910\u0938\u0940 \u0915\u0939\u093e\u0928\u0940 \u0938\u0941\u0928\u093e\u090a\u0902\u0917\u093e \u091c\u0948\u0938\u0947 \u0926\u093e\u0926\u093e \u091c\u0940 \u0938\u0941\u0928\u093e\u0924\u0947 \u0939\u0948\u0902 \u092a\u094b\u0924\u094b \u0915\u094b \u0915\u093f \u0939\u092e\u093e\u0930\u0947 time \u092a\u0947 \u092f\u0939 \u0939\u094b\u0924\u093e \u0925\u093e \u092e\u0947\u0930\u0947 time \u092a\u0922\u093c\u0928\u0940 \u0932\u0947\u0915\u093f\u0928 \u092c\u0939\u0941\u0924 \u092a\u0939\u0932\u0947 \u091c\u092c CSS2 \u0906\u0908 \u0925\u0940 \u0924\u092c media \u0928\u093e\u092e \u0915\u0940 \u090f\u0915 query \u0907\u0902\u091f\u0930\u0921\u094d\u092f\u0942\u0938 \u0915\u0940 \u0917\u0908 \u0925\u0940 \u0914\u0930 \u0909\u0938\u0915\u093e purpose \u0907\u0924\u0928\u093e \u0925\u093e \u0915\u093f media query \u092f\u0939 \u092c\u0924\u093e\u0924\u0940 \u0925\u0940 \u0915\u093f \u0905\u0917\u0930 \u0915\u094b\u0908 \u092d\u0940 \u0907\u0902\u0938\u093e\u0928 \u0915\u093f\u0938\u0940 \u0926\u0942\u0938\u0930\u0947 device \u092e\u0947\u0902 \u0906\u0915\u094d\u0938\u0947\u0938 \u0915\u0930 \u0930\u0939\u093e \u0939\u0948 \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0915\u094b \u0924\u094b styles \u0915\u094b change \u0915\u093f\u092f\u093e \u091c\u093e \u0938\u0915\u0947 \u0938\u093f\u0930\u094d\u092b \u0907\u0924\u0928\u093e purpose \u0925\u093e \u0909\u0938\u0915\u094b media rule \u0915\u0939\u093e \u091c\u093e\u0924\u093e \u0925\u093e \u091c\u094b CSS2 \u092e\u0947\u0902 \u090f\u0902\u091f\u0930\u0921\u094d\u092f\u0942\u0938 \u0915\u0940 \u0917\u0908 \u0925\u093e CSS3 \u092e\u0947\u0902 \u0907\u0938 media rule \u0915\u093e \u0928\u093e\u092e change \u0915\u0930\u0915\u0947 media query \u0915\u0930 \u0926\u093f\u092f\u093e \u0917\u092f\u093e \u0924\u094b CSS2 \u092e\u0947\u0902 media rule \u0915\u0948\u0938\u0947 \u0915\u093e\u092e \u0915\u0930\u0924\u093e \u0925\u093e \u0909\u0938\u0915\u094b \u092d\u0942\u0932 \u091c\u093e\u0913 CSS3 \u092e\u0947\u0902 \u092c\u0924\u093e\u0924\u093e \u0939\u0942\u0901 media query \u0915\u093f\u0938 \u0924\u0930\u0939 \u0938\u0947 \u0915\u093e\u092e \u0915\u0930\u0924\u0940 \u0939\u0948 \u0924\u094b CSS3 \u092e\u0947\u0902 media query \u0915\u093e syntax \u0915\u094d\u092f\u093e \u0939\u094b\u0924\u093e \u0939\u0948 \u0915\u093f \u0906\u092a \u0938\u092c\u0938\u0947 \u092a\u0939\u0932\u0947 \u0915\u094d\u092f\u093e \u0915\u0930\u0924\u0947 \u0939\u094b \u0915\u093f \u0932\u093f\u0916\u0924\u0947 \u0939\u094b at the rate media \u0907\u0938\u0915\u093e \u092e\u0924\u0932\u092c \u0939\u0941\u0906 \u0915\u093f \u0906\u092a media query \u0932\u093f\u0916 \u0930\u0939\u0947 \u0939\u094b \u091f\u0940\u0915\u0947 \u0906\u092a \u0915\u093f\u0938 device \u092e\u0947\u0902 \u0932\u093f\u0916\u0928\u093e \u091a\u093e\u0939\u0924\u0947 \u0939\u094b media query \u092f\u0939 \u0906\u092a \u0932\u094b\u0917 \u092c\u0924\u093e\u0924\u0947 \u0939\u094b \u0914\u0930 \u0909\u0938\u0938\u0947 \u092a\u0939\u0932\u0947 \u090f\u0915 not \u092f\u093e only \u0906\u0924\u093e \u0939\u0948 \u092f\u093e\u0928\u093f \u0915\u093f \u092e\u0948\u0902 \u0906\u092a \u092a\u0930 \u0932\u093f\u0916 \u0938\u0915\u0924\u093e \u0939\u0942\u0901 media only screen \u092f\u093e\u0928\u093f \u0915\u093f \u0938\u093f\u0930\u094d\u092b screen \u092a\u0930 \u0939\u0948\u0902 \u0924\u092c \u092f\u0939\u093e\u0901 \u092a\u0930 apply \u0939\u094b\u0917\u0940 \u0939\u0948 \u0924\u094b \u090f\u0915 typical \u091c\u094b syntax \u0939\u0948 media query \u0915\u093e \u0907\u0938 \u0924\u0930\u0939 \u0938\u0947 \u0932\u093f\u0916\u0924\u093e \u0939\u0948 media not only \u092f\u093e \u0924\u094b \u0907\u0938 media type \u092a\u0930 \u0928\u0939\u0940\u0902 \u0926\u093f\u0916\u093e \u0914\u0930 \u092a\u0930 \u0907\u0938 media type \u092a\u0930 \u0926\u093f\u0916\u093e \u0939\u094b \u0914\u0930 \u0907\u0938\u0915\u0947 \u092c\u093e\u0926 \u0939\u092e \u092f\u0939\u093e\u0901 \u092a\u0930 \u0915\u0941\u091b expressions \u0932\u093f\u0916\u0924\u0947 \u0939\u0948\u0902 \u091c\u093f\u0938\u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0906\u092a \u0932\u094b\u0917 \u0915\u094b \u092c\u0924\u093e\u090a\u0902\u0917\u093e \u0914\u0930 \u0907\u0938\u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 CSS code \u0932\u093f\u0916\u0924\u0947 \u0939\u0948\u0902 \u091c\u094b \u0915\u093f apply \u0939\u094b\u0917\u093e \u0924\u092c \u091c\u092c \u092f\u0939 \u091a\u0940\u091c\u093c \u092a\u0930 \u0907\u0938\u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0906\u092a \u0932\u094b\u0917 \u0915\u094b \u092c\u0924\u093e\u090a\u0902\u0917\u093e \u090f\u0915 \u0914\u0930 \u0939\u094b\u0924\u0947 \u0939\u0948 speech devices \u091c\u094b \u0915\u093f \u0909\u0928 \u0932\u094b\u0917 \u0915\u0947 \u0932\u093f\u090f \u0907\u0938\u094d\u0924\u0947\u092e\u093e\u0932 \u0939\u094b\u0924\u0947 \u0939\u0948\u0902 \u091c\u094b \u0915\u093f \u0926\u0947\u0916 \u0928\u0939\u0940\u0902 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902 \u0924\u094b \u092f\u0939\u093e\u0901 \u092a\u0930 speech \u0921\u093e\u0932\u093e \u091c\u093e\u0924\u093e \u0939\u0948 \u0905\u0917\u0930 \u0906\u092a \u091a\u093e\u0939\u0924\u0947 \u0939\u094b \u0915\u093f \u092f\u0939 CSS style \u0924\u092c \u0939\u0940 apply \u0939\u094b \u091c\u092c \u092f\u0939\u093e\u0901 \u092a\u0930 speech \u0935\u093e\u0932\u093e device \u0939\u094b \u0924\u094b \u0906\u092a \u092f\u0939\u093e\u0901 \u092a\u0930 speech \u0932\u093f\u090f \u0926\u094b\u0917\u0947 \u092c\u0921\u093c\u0947 \u092e\u094b\u0938\u094d\u091f \u0914\u0930 \u0915\u0947\u0938\u0947 \u0905\u092a \u092f\u0939\u093e\u0901 \u092a\u0930 screen \u0939\u0940 \u0932\u093f\u0916\u094b\u0917\u0947 \u0914\u0930 \u0907\u0938\u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0906\u092a \u092f\u0939\u093e\u0901 \u092a\u0930 end \u0932\u093f\u0916\u094b\u0917\u0947 \u0914\u0930 \u090f\u0915 condition \u0932\u093f\u0916\u094b\u0917\u0947 \u0915\u0941\u091b \u0907\u0938 \u0924\u0930\u0939 \u0915\u0947 \u091c\u093f\u0938\u0947 \u092e\u093e\u0932\u094b\u0902 \u092e\u0948\u0902 \u0932\u093f\u0917\u0947 \u0926\u0947\u0924\u093e \u0939\u0942\u0901 max width \u0939\u094b\u0928\u0940 \u091a\u093e\u0939\u093f\u090f 455 pixel \u0914\u0930 \u092e\u093e\u0932\u094b\u0902 \u0906\u092a \u0926\u0947\u0916\u094b \u0906\u092a \u0932\u094b\u0917 \u0905\u0917\u0930 \u0907\u0938\u0915\u0940 max width \u092f\u0939\u093e\u0901 \u092a\u0930 455 pixel \u0924\u0915 \u091a\u094b\u0908 \u092f\u0939 \u0938\u0947 style \u0932\u0917\u0947\u0917\u093e \u092f\u093e\u0928\u093f \u0915\u0940 455 \u0938\u0947 style \u0932\u0917\u0947\u0917\u093e \u092f\u0939 \u0915\u0940 \u0924\u0930\u0939 \u0915\u0947 \u0932\u093f\u0916\u094b\u0917\u0947 \u092a\u0930 \u092c\u0930\u0947 \u092e\u0947\u0902 \u092a\u0930 \u092f\u0939\u093e\u0901 \u092a\u0930 \u0935\u093f\u0921\u093f\u092f\u094b \u0915\u0930\u0924\u0947 \u0939\u0948\u0902 \u0924\u094b \u092c\u0948\u0915\u094d\u0915\u0930\u0949\u0923 \u0915\u0932\u0930 \u092c\u0921\u093c\u0947 \u0915\u0930\u0924\u0947 \u0939\u0948 \u0924\u094b \u092f\u0939 \u092a\u0930 \u092a\u0930 \u092a\u0930 \u092a\u0930\u0935\u093e\u0930\u0924 \u092a\u0930 90-95 \u092a\u0930\u0935\u093e\u0930\u0924 \u0915\u0947 \u0932\u093f\u090f media only screen and max width 455 \u092f\u0939\u093e\u0901 \u092a\u0930 min width \u092d\u0940 \u0926\u0947 \u0938\u0915\u0924\u093e \u0939\u0942\u0901 \u0905\u0917\u0930 \u092e\u0948\u0902 \u0907\u0938\u0915\u094b min width \u0915\u0930 \u0926\u0942 \u092f\u0939\u093e\u0901 \u092a\u0930 \u0924\u094b \u0915\u094d\u092f\u093e \u0939\u094b\u0917\u093e \u0905\u0917\u0930 \u092e\u0948\u0902\u0928\u0947 min width \u0915\u0930 \u0926\u093f\u092f\u093e \u0924\u094b \u092f\u0939 apply \u0939\u094b\u0917\u093e after \u091c\u093f\u0924\u0928\u093e \u092e\u0948\u0902\u0928\u0947 pixel \u091c\u093f\u092f\u093e \u0925\u093e I guess \u092e\u0948\u0902\u0928\u0947 455 pixel \u091c\u093f\u092f\u093e \u0925\u093e \u0924\u094b \u0924\u094b \u0924\u094b \u0930\u093f\u0936\u094d\u091f \u0928\u093f\u0935\u0930\u094d\u0935 \u0915\u094d\u092f\u0942\u0902\u0915\u093f \u0905\u092d\u0940 \u091c\u094b 455 \u092a\u093f\u0915\u094d\u0938\u0932 \u092e\u0948\u0902 \u0915\u0902\u0917 \u0915\u0930\u0942\u0901\u0917\u093e \u0924\u094b \u0926\u0947\u0916\u094b \u0917\u093e\u092f\u093e \u092d\u0940 \u0939\u094b \u0917\u0908 \u0915\u094d\u092f\u093e \u092f\u0939 \u092c\u0921\u093c\u0940 \u0939\u0948 \u0924\u094b \u092f\u0939 \u0938\u094d\u091f\u093e\u0907\u0932 \u0938\u092c \u0932\u0917\u0947\u0902\u0917\u0947 \u0939\u0940 \u0928\u0939\u0940\u0902 \u0924\u094b \u092f\u0939 \u092c\u0921\u093c\u0940 \u0926\u093f\u0916\u093e \u0939\u0940 \u0928\u0939\u0940\u0902 \u091c\u093e \u0930\u0939\u0940 \u0939\u0948 \u091c\u0948\u0938\u0947 \u092e\u0948\u0902 \u0907\u0938\u0915\u094b \u092c\u0921\u093c\u093e \u0915\u0930\u0942\u0901\u0917\u093e \u0907\u0938\u0947 \u0924\u092c \u0924\u094b \u092e\u0940\u0921\u093f\u092f\u093e \u0915\u094d\u0935\u0930\u0940 \u090f\u0915\u094d\u091f\u093f\u0935\u0947\u091f \u0939\u094b \u091a\u0941\u0915\u0940 \u0939\u0948 \u0924\u094b \u092f\u0939 \u0935\u093e\u0932\u0947 \u0938\u094d\u091f\u093e\u0907\u0932 \u0915\u093e\u092e \u0928\u0939\u0940\u0902 \u0915\u0930\u0947\u0902\u0917\u0947 \u0924\u093e\u0925 \u0938\u0947 \u0905\u0932 \u0906\u092c\u093e\u0913\u091f \u092e\u0940\u0921\u093f\u092f\u093e \u0915\u094d\u0935\u0930\u0940 \u092f\u093e\u0930 \u0924\u094b \u0935\u093e\u0932\u0947 \u0938\u092e\u0930\u093f\u091c\u094d\u092f\u0935 \u092e\u0940\u0921\u093f\u092f\u093e \u0915\u094d\u0935\u0930\u0940 \u0939\u094b\u0924\u0940 \u0939\u0948 \u0909\u0938\u0915\u093e \u0907\u0938\u094d\u0925\u093f\u092e\u093e\u0932 \u0915\u093f\u092f\u093e responsive designs ko banane ke liye for example let us say mere paas 2 boxes hai main aap par 2 boxes banata hu aur div.boxes karunga aur yahan par div.boxes karunga aur kuch boxes aur lagata hu yahan par main .box main kyung jo .box hai main uske width rakhta na chahata hu let us say 344 pixels aur height rakhta na chahata hu let us say 344 pixels, meise maine 344 hi kyun choose kya hai isi example ke liye, agar aapko idea ho to batana ki mera kaunsa Isaac Newton wala dimaag hai jo maine 344 pixels hi use kya, maine 392 kyun hi kya, batana zarur aap log, niche comment section me agar aapko pata ho to, aur aap yahan par dekho ki abhi tak to maine yahan par sirf box ki width diye, main iska background color bhi deta hu aur iska background color mai deta hu let us say steel blue, theek hai main iska background color steel blue de diye, ye boxes aapko dekhne ko mil jayenge, isme padding margin bhi de deta ho, to agar mai padding do 3 pixels margin do 3 pixels to aap log dekh sakte ho ki padding margin dene ke baad hi kuch is tarah se dekh rahe hai ab maan lo mai chahata hu ki ye jo boxes hai wo jis hi zaap se dekh rahe hai, mai chahata hu choti screens par ye boxes kuch aise dekhein ki ye apne aapko wrap karne lag jaye, ya phir let us say mai chahata hu ki ye ek flex box ho, mujhe pata hai aapko flex box nahi bataya hai, bas just main aap log ko ye haan par example dene ke liye flex kar rahe ho isko agar aapko nahi pata flex box kya hota hai tension mat lena bahot sahi se pataunga flex box, lekin aap bas itna samajh do display flex lakane se ye is sara ke container me aajaenge, ab mai isko abar chota karunga aap dekho ye aise chote ho rahe hain, to mai keh sakta hu ki bhai jab mai isko chota kar rahe ho, let us say jab ye red wala break point aara hai, 388 pixel aara hai to mai keh dunga bhai, jo iska flex direction hai wo column kar du ye just ek example hai jo mai aapko dena ho this is not the best way to do this, mai aapko bata du, boxes ka mai kahunga ki, jo flex direction hai wo kya kar du flex direction column to ye karne se kya hoga, jaise hi mai isko chota karunga, aap dekho mai ne ye kiya mai isko, ups main actually garbar kar diya hai yaha par, mai isko max width karunga yaar min width nahi, mai isko max width karunga, min width nahi karunga ab dekhna aap log, ye kuch is tarah se dikh raha hai ab jaise hi chota hoga na, aap dekhna hi aise aa gaya, theek hai to mai basically kya kaha sakta ho, mai kaha sakta ho ki yaar phone hai, yaani ki isse chote devices hai, jo bhi maine number diya tha 400 something, 455 pixels se chote devices unmei ye CSS apply kar do, ab kya hota hai na ki jab aap responsive design kar rahe hote hai, to aap log break points ka concept usko sabjo, hum kuch 2-3 break points mein website ko todte hai, hum kehte hai yaar dekho phone wali devices hai 455 pixels ke neeche rahe hain, ye arbitrary number hai is number ka ek accha approximation aap log le le na lekin main ek example aapko batara hu, 455 pixels se bade jo devices humge humare, wo let us say 455 se leke 750 tak, hum unko tablet ban le dekh, ki yaar wo kahin na kahin tablet ke jaise hunge, aur unmei kuch aur styles hum log apply kar denge, fir usse upar jo devices hunge let us say 1080 pixels tak, hum keh denge ki yaar 1920 hai phir, jitne bhi pixels hoti hai humari wide screen, waha tak ek particular humara style lag jaga fir kuch ultra wide monitors hote hain, jinki jo width hoti hai, wo bahut zyada hoti hai, unmei me bhi hum apni website ko ek alag dhang se dikhana chahe, to hum un ultra wide monitors me apni website ko kuch aur media queries ke through sajha sarte hain, style kar sarte hain, so i hope media queries samajh me aagaya sabko, hum media query ka mai istamal karunga jab hum log projects banayenge, aur bahut zyada mai istamal karunga media queries ka, jab bhi aap raw CSS likh rahe ho, media query ko zarur istamal karoge, agar aap frameworks ka istamal kar rahe ho, to frameworks ka istamal karte bhakta, media query ka istamal isliye nahi karoge kyunki frameworks behind the hood, jaise tailwind CSS hai behind the hood use karta hai media queries ko, bootstrap hai behind the hood use karta hai media queries ko, lekin raw CSS hum likhenge, hum raw CSS main banayenge projects, maha baad aap log dekhna, ki media query aur istamal kis tarah se mai karunga ab jaane se pehle, main ek cheez aur aap logon ko dikhana chahata ho ki ek media query hoti hai, jo ki aap log use karte hain main aap log likhunga, and aur likhunga orientation, orientation ki aap log log, maal log main yeh kar diya, ab dekho yaha par 2 pixel solid purple ki aap logon ko yeh dekhne ko mil rhi hai yeh tab mil rhi hai aapko dekhne ko, jab mera orientation landscape hai lekin agar mera orientation landscape se portrait ho gaya, ab dekho yeh gaya ho jayegi, portrait ka matlab kya hota hai, portrait ka matlab yeh hota hai, ki jo hamari height hai yeh height hai, yeh portrait hai, yeh height jo hai wo zyada hai width se, aur width agar zyada hui height se to wo landscape hai, to dekho landscape hogi to yeh border dikh raha hai, to aap orientation landscape, yeh portrait bhi kar sakte ho, to main portrait kar diya agar yaha par, to yeh portrait mein dikhye ki line sirf aap dekh sakte ho, yeh border sirf portrait mein dikh raha hai, to aur aap log chahate ho ki aapke styles landscape, yeh portrait mein enable ho, to aap yeh use kar sakte ho, yeh media query bhi kaafi popular hoti hai taki main batara hu aapko tubara se, most of the cases aap apne aapko istara ki media query se istamal karte hua paoge, with that said, agar aap log ne abhi tak nahi kari hai, planet access, to main ghar aana hu, aapke ghar aana hai, bohot ho gaya to source code main update kar dunga, usko aap log access kar lena video ko like kar dena, playlist ko share kar dena, video ko bhi share kar dena aur apne gaon aur tao ki zameen mere naam kar dena thank you so much guys for watching this video, and i will see you next time music music"
+}
