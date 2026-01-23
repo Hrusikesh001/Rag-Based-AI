@@ -1,0 +1,9 @@
+I'd be happy to help you with your query.
+
+You're looking for information about media queries in CSS, right? Specifically, where and how much content is taught in relation to this topic in our course.
+
+In video 28, we cover the basics of CSS Position Property, which includes a section on media queries. You can find this at around the 390-395 second mark.
+
+Later, in video 31, we dive deeper into CSS Media Queries, where you'll learn about different types of media queries and their syntax. To be more specific, the content about media query syntax is shown between the 150-152 second mark.
+
+If you'd like to see these concepts in action, I recommend watching videos 28 and 31. If you have any further questions or need clarification on any of this, feel free to ask!
