@@ -1,9 +1,7 @@
-I'd be happy to help you with your query.
+You're looking to learn about Semantic Tags in HTML. I'd be happy to help!
 
-You're looking for information about media queries in CSS, right? Specifically, where and how much content is taught in relation to this topic in our course.
+It looks like the topic of Semantic Tags is covered in Video 11 of your Sigma web development course. You can find it by playing the video from the start (around 8 seconds into the video) and going all the way through until the end.
 
-In video 28, we cover the basics of CSS Position Property, which includes a section on media queries. You can find this at around the 390-395 second mark.
+In this video, you'll learn about what Semantic Tags are, how they were introduced, and some examples to help you understand their usage better. The topic is specifically discussed starting at around 40 seconds into the video.
 
-Later, in video 31, we dive deeper into CSS Media Queries, where you'll learn about different types of media queries and their syntax. To be more specific, the content about media query syntax is shown between the 150-152 second mark.
-
-If you'd like to see these concepts in action, I recommend watching videos 28 and 31. If you have any further questions or need clarification on any of this, feel free to ask!
+If you have any more questions or need further clarification on what Semantic Tags are and how to use them in your web development projects, feel free to ask!
