@@ -1,15 +1,116 @@
-# How to use this RAG AI Teaching assistant on your own data
-## Step 1 - Collect your videos
-Move all your video files to the videos folder
+# 🤖 AI Teaching Assistant — RAG-Based Learning Platform
 
-## step 2 - Convert to mp3
-Convert all the video files to mp3 by running video_to_mp3
+> An AI-powered learning platform that understands course content from educational videos and helps students find relevant explanations using Retrieval-Augmented Generation (RAG).
 
-## Step 3 - Convert mp3 to json
-Convert all the mp3 files to json by running mp3_to_json
+---
 
-## Step 4 - Converts the json files to vector
-Use the files preprocess_json to convert the json files to a dataframe with Embeddings and save it as a joblib pickle
+## 📌 Overview
 
-## Step 5 - Prompt generation and feeding to LLM
-Read the joblib file and load it into the memory. Then create a relevent prompt as per the user query and feed it to the LLM
+**AI Teaching Assistant** is a Retrieval-Augmented Generation (RAG) based learning platform designed to help students interact with educational video content using natural-language questions.
+
+Instead of manually searching through hours of tutorial videos, students can simply ask a question. The system searches the course knowledge base, identifies the most relevant video segments, and uses a local Large Language Model (LLM) to generate a context-aware response along with the relevant tutorial and timestamp.
+
+### Example
+
+**Student:**
+
+> How can I add a video to an HTML webpage?
+
+**System:**
+
+> The `<video>` element can be used to embed video content in an HTML page.  
+> 📚 **Tutorial:** Pure HTML Media Player  
+> ⏱️ **Timestamp:** 08:32 – 09:15
+
+---
+
+## ✨ Key Features
+
+- 🎥 **Video-to-Text Processing** using FFmpeg and Whisper
+- 📝 **Timestamped Transcripts** for course videos
+- 🧠 **Semantic Search** using BGE-M3 embeddings
+- 🔎 **Top-K Retrieval** using cosine similarity
+- 🤖 **Local LLM Generation** using Llama 3.2
+- 🔒 **Local AI Inference** through Ollama
+- ⏱️ **Video Timestamp References** for retrieved content
+- 📚 **Course-Specific Question Answering**
+- 💾 **Persistent Embedding Storage** using Pandas and Joblib
+- 🚫 **Out-of-Course Question Handling**
+
+---
+
+## 🏗️ System Architecture
+
+```text
+                    ┌──────────────────────┐
+                    │   Educational Videos │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                         ┌───────────┐
+                         │  FFmpeg   │
+                         └─────┬─────┘
+                               │
+                               ▼
+                       ┌───────────────┐
+                       │  Audio Files  │
+                       └───────┬───────┘
+                               │
+                               ▼
+                    ┌────────────────────┐
+                    │  Whisper Large-v2  │
+                    │   Speech-to-Text   │
+                    └─────────┬──────────┘
+                              │
+                              ▼
+                    ┌────────────────────┐
+                    │ Timestamped JSON   │
+                    │     Transcripts    │
+                    └─────────┬──────────┘
+                              │
+                              ▼
+                       ┌────────────┐
+                       │   BGE-M3   │
+                       │ Embeddings │
+                       └─────┬──────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │ Pandas + Joblib      │
+                  │ Embedding Dataset    │
+                  └──────────┬───────────┘
+                             │
+                             │
+                    ┌────────▼─────────┐
+                    │   Student Query  │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                       ┌────────────┐
+                       │   BGE-M3   │
+                       │Query Vector│
+                       └─────┬──────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │ Cosine Similarity    │
+                  │   + Top-K Retrieval  │
+                  └──────────┬───────────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │ Retrieved Context    │
+                  │ + Student Question   │
+                  └──────────┬───────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │    Llama 3.2     │
+                    │  Local LLM       │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │  Grounded Answer │
+                    │ + Video Metadata │
+                    └──────────────────┘
