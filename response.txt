@@ -1,7 +1,7 @@
-You're looking to learn about Semantic Tags in HTML. I'd be happy to help!
+Hi there, welcome to the Sigma web development course!
 
-It looks like the topic of Semantic Tags is covered in Video 11 of your Sigma web development course. You can find it by playing the video from the start (around 8 seconds into the video) and going all the way through until the end.
+You asked "what is CSS?" which is actually covered in Video 14 of the course. If you want to learn more about what CSS is and how it's used, you can go ahead and watch Video 14. In this video, we start discussing CSS from the beginning, explaining its purpose, how it's used, and how it relates to HTML. We also cover the basic structure of CSS and how it's used to style HTML elements.
 
-In this video, you'll learn about what Semantic Tags are, how they were introduced, and some examples to help you understand their usage better. The topic is specifically discussed starting at around 40 seconds into the video.
+If you want to get a head start, you can jump to Video 14, which should be available on the course platform. Just click on the video title, and you'll be able to watch the video from the start.
 
-If you have any more questions or need further clarification on what Semantic Tags are and how to use them in your web development projects, feel free to ask!
+Let me know if you have any other questions or if there's anything else I can help you with!
