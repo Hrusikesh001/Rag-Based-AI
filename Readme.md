@@ -114,3 +114,8 @@ Instead of manually searching through hours of tutorial videos, students can sim
                     │  Grounded Answer │
                     │ + Video Metadata │
                     └──────────────────┘
+
+
+cd "C:\Users\hrush\OneDrive\Desktop\Rag Based AI"
+.\venv\Scripts\Activate.ps1
+python process_incoming.py
