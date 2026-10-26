@@ -32,34 +32,63 @@ def inference(prompt):
     return r.json()["response"]
 
 
+
+
+
 def verify_context(question, context_json):
     prompt = f"""
-You are a strict course-material evidence checker.
-
-Your task is to determine whether the provided transcript excerpts
-contain enough information to answer the student's question.
+You are checking whether course transcripts contain evidence
+that answers a student's question.
 
 Student question:
 {question}
 
-Retrieved transcript excerpts:
+Retrieved course transcripts:
 {context_json}
 
-Rules:
-1. Return YES only if the transcripts directly explain the requested
-   concept or contain enough information to answer it.
-2. Merely mentioning a related word or technology is NOT sufficient.
-3. Do not use your general knowledge.
-4. If the answer is incomplete, indirect, or missing, return NO.
-5. Return exactly one word: YES or NO.
+Evaluate the evidence carefully.
+
+- Return YES if at least one excerpt directly explains the main
+  concept asked about or multiple excerpts provide enough evidence.
+- A basic explanation is sufficient; every detail is not required.
+- Ignore unrelated transcript excerpts.
+- Return NO only if the relevant excerpts do not explain the
+  requested concept or lack essential information.
+- Do not use knowledge outside the provided transcripts.
+
+Important example:
+Question: What is the CSS box model?
+Evidence: The transcript identifies content, padding, border,
+and margin, and explains how these parts surround the content.
+Decision: YES
+
+Question: What is a JavaScript closure?
+Evidence: The transcripts only discuss the CSS box model.
+Decision: NO
+
+Return exactly one word: YES or NO.
 
 Decision:
 """
 
-    result = inference(prompt).strip().upper()
+    try:
+        result = inference(prompt).strip().upper()
+        print(f"\n[DEBUG] Raw verifier response: {result!r}")
 
-    # Accept only an exact YES response.
-    return result == "YES"
+        # Accept only a standalone YES or NO answer.
+        if result.rstrip(".,!?") == "YES":
+            return True
+
+        if result.rstrip(".,!?") == "NO":
+            return False
+
+        print("[DEBUG] Invalid verifier response; rejecting answer.")
+        return False
+
+    except Exception as e:
+        print(f"Context verification failed: {e}")
+        return False
+
 
 
 def format_timestamp(seconds):
@@ -70,7 +99,7 @@ def format_timestamp(seconds):
 
 
 # Load saved transcript embeddings
-df = joblib.load("embeddings.joblib")
+df = joblib.load("embeddings_chunked.joblib")
 
 # Ask the student a question
 incoming_query = input("Ask a Question: ").strip()
@@ -210,6 +239,4 @@ print("\n" + response)
 with open("response.txt", "w", encoding="utf-8") as f:
     f.write(response)
 
-# Save the answer
-with open("response.txt", "w", encoding="utf-8") as f:
-    f.write(response)
+
